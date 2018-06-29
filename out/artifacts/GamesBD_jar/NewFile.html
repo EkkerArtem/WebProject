@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<form action="adduser" method="get">
+		<p>Enter nickname<input type="text" name="nickname" required></p>
+		<p>Enter email<input type="text" name="email" required></p>
+		<p>Enter phone number<input type="text" name="phone" required></p>
+	<p><select name="dbSelect" id="myDb1">
+		<option value="mysql" selected>MySql</option>
+		<option value="mongo">Mongo</option>
+	</select></p>
+		<input type="submit" value="Отправить">
+	</form>
+
+	<form action="UpdateUser" method="get">
+		<p>Enter your nick<input type="text" name="nicknamehave" required></p>
+		<p>Enter nick you want<input type="text" name="nicknamewant" required></p>
+		<p>Enter you email<input type="text" name="emailhave" required></p>
+		<p>Enter email you want<input type="text" name="emailwant" required></p>
+		<p>Enter your phone number<input type="text" name="phonehave" required></p>
+		<p>Enter phone number you want<input type="text" name="phonewant" required></p>
+		<p><select name="dbSelect" id="myDb2">
+			<option value="mysql" selected>MySql</option>
+			<option value="mongo">Mongo</option>
+		</select></p>
+		<input type="submit" value="Изменить">
+	</form>
+
+//w3c.org  JS make request
+
+	<form action="DeleteUser" method="get">
+		<p>Enter your nick<input type="text" name="nicknamehavetodel" required></p>
+		<p>Enter your phone number<input type="text" name="phonehavetodel" required></p>
+		<p>Enter you email<input type="text" name="emailhavetodel" required></p>
+		<p><select name="dbSelect" id="myDb3">
+			<option value="mysql" selected>MySql</option>
+			<option value="mongo">Mongo</option>
+		</select></p>
+		<input type="submit" value="Удалить">
+	</form>
+	
+	<form action="Copyfstm" method="get">
+	<p>
+		<input type="submit" value="Скопировать БД из MySQL в Mongo">
+	</p>
+	</form>
+	<form action="Copyfmts" method="get">
+		<p>
+			<input type="submit" value="Скопировать БД из Mongo в MySQL">
+		</p>
+	</form>
+
+	<form action="searchall" method="get">
+		<p>
+			<input type="submit" value="Вывести в консоль юзеров из Mongo">
+		</p>
+	</form>
+</body>
+</html>

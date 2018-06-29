@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="GamesBD:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GamesBD_jar</output-path>
+    <root id="root">
+      <element id="archive" name="GamesBD.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="D:/apache-tomcat-7.0.82/apache-tomcat-7.0.82/lib/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="GamesBD" />
+        <element id="file-copy" path="D:/mongodb-driver-3.6.0.jar" />
+      </element>
+      <element id="javaee-facet-resources" facet="GamesBD/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="GamesBD" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-5.1.44-bin" />
+      <element id="library" level="project" name="mongo-java-driver-r3.6" />
+    </root>
+  </artifact>
+</component>

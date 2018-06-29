@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="settings">
+    <CLASSES>
+      <root url="jar://D:/mongo-java-driver-r3.6.0/mongo-java-driver-r3.6.0/settings.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://D:/mongo-java-driver-r3.6.0/mongo-java-driver-r3.6.0/settings.jar!/" recursive="false" />
+  </library>
+</component>
